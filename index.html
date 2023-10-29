@@ -69,7 +69,7 @@
                            <li> <a href="#">About</a></li>
                            <li><a href="#">Products</a></li>
                            <li><a href="#">Life@AnireySoft</a></li>
-                           <li><a href="#">Contact</a></li>
+                           <li><a href="#contact" ; onclick="showContact()">Contact</a></li>
                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                               </button>
                            </li>
@@ -247,14 +247,23 @@
             <div class="container">
                <div class="row">
                   <div class="col-md-12" >
-                     <div class="titlepage">
-                     <h2>Spreading Smiles Everyday!</h2>
+                     <div class="titlepage" >
+                     <h2>Contact Us</h2>
                      </div>
-                     <p style="color: black;">We serve 100 lunch meals daily to school children. This helps eliminate classroom hunger by implementing mid-day Meals countering malnutrition and supporting the right to education for socio-economically disadvantaged children.
-                        <br><br>We’ve also contributed to the Relief Fund that helped provide meals or packed grocery kits to the marginalized and low-income segment of the society comprising daily wage workers, migrant laborers, construction site workers, and needy people at old-age homes and night shelters.
-                     </p>
+                     <div style="display: flex;">
+                        <section class="div1">
+                           <h2>Contact No : +17148557766</h2>
+                           <p>You can also email us directly at supports@anireysoft.com</p>
+                           <div class="div_contact_us">
+                           <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.052027579171!2d-121.87562452493012!3d37.718456615403554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808feecf54358069%3A0xa553ff579a73ca81!2s4091%20Callaway%20Pl%2C%20Dublin%2C%20CA%2094568%2C%20USA!5e0!3m2!1sen!2sin!4v1690386968922!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <br/> 4091 CALLAWAY PL <br/>DUBLIN CA 94568
+                        </div>
+                        </section>
+                        <!-- <aside class="div_contact_us">
+                           <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3156.052027579171!2d-121.87562452493012!3d37.718456615403554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808feecf54358069%3A0xa553ff579a73ca81!2s4091%20Callaway%20Pl%2C%20Dublin%2C%20CA%2094568%2C%20USA!5e0!3m2!1sen!2sin!4v1690386968922!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           <br/> 4091 CALLAWAY PL <br/>DUBLIN CA 94568
+                        </aside> -->
                      </div>
-                  </div>
                </div>
             </div>
          </div>
@@ -335,6 +344,13 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
+      <script>
+         function showContact() {
+             var div = document.getElementById("contact");
+             div.style.display = "block"; // or any other style you prefer to make the div visible
+         }
+     </script>
+     
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>

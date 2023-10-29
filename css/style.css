@@ -150,9 +150,24 @@ a,
   transition: all 0.3s ease-in-out;
 }
 
+.div1, .div2 {
+  /* width: 50%;
+   Each div takes 50% of the container width */
+
+}
+
 img {
   max-width: 100%;
   height: auto;
+}
+
+.div_contact_us {
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  text-align: center;
+  color: #000;
+  font-size: 20px;
 }
 
 :focus {
