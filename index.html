@@ -66,8 +66,8 @@
                      </div>
                      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <ul class="btn">
-                           <li> <a href="about">About</a></li>
-                           <li><a href="#">Products</a></li>
+                           <li> <a href="#about" ; onclick="showAbout()">About</a></li>
+                           <li><a href="#product" ; onclick="showProduct()">Product</a></li>
                            <li><a href="#">Life@AnireySoft</a></li>
                            <li><a href="#">Contact</a></li>
                            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
@@ -163,73 +163,89 @@
          </div>
          <!-- end banner -->
          <!-- about -->
-         <div id="about"  class="about">
+         <div id="about" class="about">
             <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class="col-md-5">
-                     <div class="about_img">
-                        <figure><img src="images/about_img.jpg" alt="#"/></figure>
-                     </div>
+              <div class="row d_flex">
+                <div class="col-md-5">
+                  <div class="about_img">
+                    <figure><img src="images/about_img.jpg" alt="#" /></figure>
                   </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="titlepage">
+                    <h2>Powering <span class="blu">Websites and Businesses</span></h2>
+                    <p>Our innovative tools and solutions empower people to achieve the freedom to get their business online and drive it forward.</p>
+                    <p>We are passionate about education and committed to providing an exceptional learning experience for students of all ages. 
+                   <br>Whether you are a curious learner looking to explore new subjects or a student seeking extra support in your academic journey,
+                   <br> we have you covered.</p>
 
-                  <div class="team-member">
-                     <div class="circular-image">
-                         <img src="images/ceof.jpeg" alt="Vaishali">
-                     </div>
-                     <p>Vaishali</p>
-                     <p>CEO (Founder)</p>
-                 </div>
-
-               
-                      <div class="team-member">
-                        <div class="circular-image">
-                          <img src="images/te1.png" alt="Datta"></div>
-                          <p>Datta</p>
-                          <p>Software Developer</p>
-                      </div>
-                      <div class="team-member">
-                        <div class="circular-image">
-                          <img src="images/shweta.jpeg" alt="Shweta"></div>
-                          <p>Shweta</p>
-                          <p>Software Developer</p>
-                      </div>
-                      
-                      <div class="team-member">
-                        <div class="circular-image">
-                        <img src="images/neha.jpeg" alt="Neha"></div>
-                        <p>Neha</p>
-                        <p>Content Writer</p>
-                    </div>
-
-                    <div class="team-member">
-                     <div class="circular-image">
-                     <img src="images/rani.jpg" alt="Rani"></div>
-                     <p>Rani</p>
-                     <p>Content Writer</p>
-                 </div>
-                 <div class="team-member">
-                  <div class="circular-image">
-                  <img src="ujwala.jpeg" alt="ujwala"></div>
-                  <p>Ujawala</p>
-                  <p>Content Writer</p>
+                  
+                  
+                    <a class="read_more">View All Products</a>
+                  </div>
+                </div>
               </div>
 
+            
+               <div id="team-members" class="row d_flex">
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/ceof.jpeg" alt="Vaishali">
+                      </div>
+                      <p>Vaishali</p>
+                      <p>CEO (Founder)</p>
+                    </div>
                   </div>
-              
-                  <p>Welcome to our Learning Academy App!</p>
-                  <p>We are passionate about education and committed to providing an exceptional learning experience for students of all ages. Whether you are a curious learner looking to explore new subjects or a student seeking extra support in your academic journey, we have you covered.</p>
-                  <!-- Add the rest of your "About Us" content here -->
-              
-                  <div class="col-md-7">
-                     <div class="titlepage">
-                        <h2>Powering <span class="blu">Websites and Businesses</span></h2>
-                        <p>Our innovative tools and solutions empower people to achieve the freedom to get their business online and drive it forward.</p>
-                        <a class="read_more">View All Products</a>
-                     </div>
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/te1.png" alt="Datta">
+                      </div>
+                      <p>Datta</p>
+                      <p>Software Developer</p>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/shweta.jpeg" alt="Shweta">
+                      </div>
+                      <p>Shweta</p>
+                      <p>Software Developer</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/neha.jpeg" alt="Neha">
+                      </div>
+                      <p>Neha</p>
+                      <p>Content Writer</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/rani.jpg" alt="Rani">
+                      </div>
+                      <p>Rani</p>
+                      <p>Content Writer</p>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="team-member">
+                      <div class="circular-image">
+                        <img src="images/ujwala.jpeg" alt="Ujawala">
+                      </div>
+                      <p>Ujawala</p>
+                      <p>Content Writer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+           
          <!-- end about -->
          <!-- choose  section -->
          <div class="choose ">
@@ -332,10 +348,10 @@
                               <div class="address">
                                  <h3>Company</h3>
                                  <ul class="Menu_footer">
-                                    <li> <a href="#">Login</a> </li>
-                                    <li><a href="#about">About </a> </li>
-                                    <li><a href="#product">Products</a> </li>
-                                    <li><a href="#life">Life@AnireySoft </a> </li>
+                                    <li><a href="#login" ; onclick="showLogin()">Login</a> </li>
+                                    <li><a href="#about" ; onclick="showAbout()">About</a> </li>
+                                    <li><a href="#product" ; onclick="showProduct()">Product</a></li>
+                                    <li><a href="#life@anireysoft" ; onclick="showLife()">Life@AniReySoft</a></li>
                                     <li><a href="#contact">Contact </a> </li>
                                  </ul>
                               </div>
@@ -384,6 +400,15 @@
       </div>
       <div class="overlay"></div>
       <!-- Javascript files-->
+      <script>
+         function showAbout() {
+             var div = document.getElementById("about");
+             div.style.display = "block"; // or any other style you prefer to make the div visible
+         }
+     </script>
+
+     
+
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
@@ -452,6 +477,9 @@
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js -->
+
+       <!-- Javascript files-->
+       
    </body>
 </html>
 
