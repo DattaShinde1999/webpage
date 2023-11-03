@@ -574,6 +574,7 @@ ul.btn li:last-child {
   border: #00aeef solid 5px;
   color: #010a05 !important;
   padding: 13px 0px;
+  margin-left: 10px;
   width: 100%;
   max-width: 210px;
   text-align: center;
@@ -639,7 +640,7 @@ ul.btn li:last-child {
 @media (min-width: 769px) {
   body {
     font-size: 18px;
-    margin: 30px;
+    margin: 0px;
   }
 #team-members {
   display: flex;
