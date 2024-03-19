@@ -831,66 +831,13 @@ ul.btn li:last-child {
 
   .request {
     background: #70d6ff;
-    height: 350px; /* Adjust padding as needed */
+    padding: 50px 100px 30px;
+   
 }
 
 .titlepage {
   text-align: left;
   color: #fff;
-}
-
-.div_contact_us {
-  float: left;
-  width: 100%;
-  height: 200px;
-  margin: auto;
-  text-align: left;
-  color: #000;
-  font-size: 20px;
-}
-
-.div_contact_us h2 {
-  font-size: 24px;
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-.div_contact_us p {
-  margin-bottom: 20px;
-  text-align: left;
-}
-
-
-.location {
-  width: 100%;
-  height: 450px;
-  text-align: center;
-  color: #000;
-  font-size: 20px;
-  padding-left: 650px;
-  padding-top: 70px;
-  float: top;
-    margin-bottom: 60px;
-  
-}
-}
-
-
-
-.location iframe {
-  width: 50%;
-  height: 20%;
-  border: 0;
-
-}
-
-/* Additional styles for contact form if needed */
-.request .titlepage {
-    text-align: left;
-}
-
-.white {
-    color: #fff;
 }
 
 
@@ -901,7 +848,7 @@ ul.btn li:last-child {
     padding: 0 30px;
     margin-bottom: 30px;
     width: 100%;
-    height: 60px;
+    height: 30px;
     background: #fff;
     color: #777977;
     font-size: 18px;
@@ -1023,16 +970,6 @@ footer {
     color: #deeaf0;
   }
 
-  .social_icon_container {
-    float: right; /* Shift the entire container to the right */
-}
-
-ul.social_icon {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-}
-
 ul.social_icon li {
     display: block;
     padding-bottom: 11px;
@@ -1041,7 +978,7 @@ ul.social_icon li {
 ul.social_icon li a {
     font-size: 18px;
     color: #fff;
-    display: block;
+    display: inherit;
 }
 
 ul.social_icon li a:hover {
@@ -1130,25 +1067,31 @@ ul.social_icon li a i:hover {
 
   .box-body {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
     justify-content: center;
     height: 100vh;
     margin: 0;
  }
 
- .container {
-    display: flex; /* Use flexbox for the container */
-    text-align: center; /* Center the content horizontally */
- }
-
  .category {
-    margin: 20px; /* Adjust the margin as needed for spacing */
-    border: 1px solid #ccc; /* Add a border to create a rectangular box */
-    padding: 10px; /* Add padding for better visual appearance */
-    width: 350px; /* Set a specific width for each box */
-    height: 450px; /* Set a specific height for each box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
- }
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 16px 32px rgba(1, 1, 1, 0.2);
+  text-align: center;
+  border-radius: 15px; 
+  background-color: #afefff; 
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: space-between; /* Center text within each category */
+}
+
+.container {
+  text-align: center; /* Center text inside the container */
+}
 
  .feature-rectangle {
     display: block; /* Set the features to be visible by default */
@@ -1165,23 +1108,23 @@ ul.social_icon li a i:hover {
     text-decoration: underline; /* Add underline */
  }
 
- .category {
-    margin-bottom: 20px; /* Adjust spacing between boxes */
-}
+ 
 
 .subscribe-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    align-self: flex-end; /* Align button to the end of its container */
-    margin-top: auto; /* Push button to the bottom */
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Center the text horizontally */
+  transition: background-color 0.3s ease; 
+  align-self: center; 
+  margin-top: auto;
 }
 
 .subscribe-button:hover {
-    background-color: #45a049;
+    background-color: #afefff;
 }
 
