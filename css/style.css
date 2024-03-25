@@ -707,7 +707,12 @@ ul.btn li:last-child {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-bottom: 10px;
   }
+  .member-name,
+.member-role {
+  margin-top: 10px; 
+}
 
   /** end about section **/
 
